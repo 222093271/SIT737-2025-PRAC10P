@@ -193,3 +193,11 @@ git stash push -m "stash before filter-branch"
 git filter-branch --force --index-filter "git rm --cached --ignore-unmatch .kube/gke_gcloud_auth_plugin_cache" --prune-empty --tag-name-filter cat -- --all
 rm -rf .git
 git init
+git config --global user.name "222093271"
+git config --global user.email "s222092371@deakin.edu.au"
+git init
+git remote add origin https://github.com/222093271/SIT737-2025-PRAC10P
+git branch -M main
+git remote remove origin
+git remote add origin https://github.com/222093271/SIT737-2025-PRAC10P.git
+git add .

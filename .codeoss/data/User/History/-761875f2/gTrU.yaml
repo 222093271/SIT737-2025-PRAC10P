@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  registration-app:
+    image: 222093271/registration-app:latest
+    container_name: registration-container
+    ports:
+      - "30080:3000"
+    environment:
+      - DB_TYPE=mongodb
+      - MONGO_URI=mongodb+srv://appuser:apppassword123@cluster123.2ldn7g1.mongodb.net/registerdb?retryWrites=true&w=majority
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:6.0
+    container_name: mongo-container
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

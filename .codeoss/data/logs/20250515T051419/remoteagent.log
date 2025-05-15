@@ -1,0 +1,12 @@
+2025-05-15 05:14:20.099 [info] 
+
+
+
+
+2025-05-15 05:14:20.143 [info] Extension host agent started.
+2025-05-15 05:14:41.480 [info] [127.0.0.1][80c21c72][ManagementConnection] New connection established.
+2025-05-15 05:14:41.507 [info] [127.0.0.1][80ee29d3][ExtensionHostConnection] New connection established.
+2025-05-15 05:14:43.372 [info] [127.0.0.1][80ee29d3][ExtensionHostConnection] <1220> Launched Extension Host Process.
+2025-05-15 06:36:42.481 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-05-15 06:36:42.494 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-05-15 07:37:24.977 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

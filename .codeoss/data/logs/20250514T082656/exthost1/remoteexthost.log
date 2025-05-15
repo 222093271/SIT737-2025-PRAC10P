@@ -1,0 +1,94 @@
+2025-05-14 08:28:58.913 [info] Extension host with pid 1397 started
+2025-05-14 08:28:58.958 [info] Lock '/home/ubongmarshalinwang/.codeoss/data/User/workspaceStorage/-695de0f3/vscode.lock': Lock acquired.
+2025-05-14 08:28:59.266 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-14 08:28:59.492 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-14 08:28:59.504 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-05-14 08:28:59.728 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-14 08:28:59.729 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-14 08:29:04.697 [info] Eager extensions activated
+2025-05-14 08:29:04.697 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-05-14 08:29:04.698 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-05-14 08:29:04.698 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-05-14 08:29:04.698 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-14 08:29:04.699 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-14 08:29:06.961 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-14 08:29:06.962 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-14 08:29:06.962 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-14 08:29:07.179 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-05-14 08:29:09.577 [error] onWillSaveTextDocument-listener from extension 'EditorConfig.EditorConfig' threw ERROR
+2025-05-14 08:29:09.584 [error] Error: timeout
+    at Timeout._onTimeout (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:137:99781)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-05-14 08:29:10.075 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-14 08:29:35.341 [error] TypeError: Cannot read properties of undefined (reading 'agents')
+    at t.AILanguageClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_language_client.ts:669:14)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_document_context.ts:90:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-14 08:30:54.905 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-05-14 08:31:02.941 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-05-14 08:31:30.408 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model12)
+2025-05-14 08:31:51.517 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model15)
+2025-05-14 08:41:36.949 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model24)
+2025-05-14 08:48:05.967 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-05-14 08:48:06.632 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-05-14 08:48:07.233 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-05-14 08:48:10.619 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-05-14 08:48:10.619 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-05-14 09:09:49.470 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2025-05-14 09:29:30.718 [error] TypeError: Cannot read properties of undefined (reading 'agents')
+    at t.AILanguageClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_language_client.ts:669:14)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_document_context.ts:90:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-14 10:38:35.808 [error] TypeError: Cannot read properties of undefined (reading 'agents')
+    at t.AILanguageClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_language_client.ts:669:14)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_document_context.ts:90:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-14 11:26:19.227 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-05-14 11:27:20.072 [error] TypeError: Cannot read properties of undefined (reading 'packageJSON')
+    at /home/ubongmarshalinwang/.codeoss/extensions/ritwickdey.liveserver-5.7.9-universal/out/src/announcement/index.js:17:86
+    at Generator.next (<anonymous>)
+    at /home/ubongmarshalinwang/.codeoss/extensions/ritwickdey.liveserver-5.7.9-universal/out/src/announcement/index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ubongmarshalinwang/.codeoss/extensions/ritwickdey.liveserver-5.7.9-universal/out/src/announcement/index.js:4:12)
+    at checkNewAnnouncement (/home/ubongmarshalinwang/.codeoss/extensions/ritwickdey.liveserver-5.7.9-universal/out/src/announcement/index.js:16:12)
+    at /home/ubongmarshalinwang/.codeoss/extensions/ritwickdey.liveserver-5.7.9-universal/out/src/extension.js:20:49
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-14 11:41:57.762 [error] TypeError: Cannot read properties of undefined (reading 'agents')
+    at t.AILanguageClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_language_client.ts:669:14)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_document_context.ts:90:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-14 12:10:35.818 [error] [googlecloudtools.cloudcode] provider FAILED
+2025-05-14 12:10:35.818 [error] Error: name must not be falsy
+    at Function.validate (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:108:33186)
+    at new R1 (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:108:33413)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11496625)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11535321)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11535407)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11504732)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11440950)
+    at Z3.provideDocumentSymbols (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:137:122225)
+2025-05-14 12:10:35.961 [error] [googlecloudtools.cloudcode] provider FAILED
+2025-05-14 12:10:35.961 [error] Error: name must not be falsy
+    at Function.validate (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:108:33186)
+    at new R1 (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:108:33413)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11496625)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11535321)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11535407)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11504732)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11440950)
+    at Z3.provideDocumentSymbols (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:137:122225)
+2025-05-14 12:42:10.956 [error] TypeError: Cannot read properties of undefined (reading 'agents')
+    at t.AILanguageClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_language_client.ts:669:14)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_document_context.ts:90:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-05-14 13:46:49.731 [error] TypeError: Cannot read properties of undefined (reading 'agents')
+    at t.AILanguageClient.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_language_client.ts:669:14)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/src/ai-companion/ai_document_context.ts:90:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)

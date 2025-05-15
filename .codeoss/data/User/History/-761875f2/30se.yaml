@@ -1,0 +1,24 @@
+version: '3.3'
+
+services:
+  registration-app:
+    image: 222093271/simple-node-app
+    container_name: simple-node-app-container
+    ports:
+      - "30080:3000"
+    environment:
+      - DB_TYPE=mongodb
+      - MONGO_URI=mongodb+srv://ubongmarshalinwang:password123xyz@clusterapp123.w4xev4o.mongodb.net/?retryWrites=true&w=majority&appName=ClusterApp123
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:6.0
+    container_name: mongo-container
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

@@ -1,0 +1,61 @@
+2025-05-14 08:26:56.397 [info] 
+
+
+
+
+2025-05-14 08:26:56.415 [info] Extension host agent started.
+2025-05-14 08:26:56.438 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubongmarshalinwang/.codeoss/extensions
+2025-05-14 08:26:56.460 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubongmarshalinwang/.codeoss/extensions
+2025-05-14 08:28:40.268 [info] [127.0.0.1][841dd314][ManagementConnection] New connection established.
+2025-05-14 08:28:40.402 [info] [127.0.0.1][e0c74496][ExtensionHostConnection] New connection established.
+2025-05-14 08:28:42.177 [info] [127.0.0.1][e0c74496][ExtensionHostConnection] <1397> Launched Extension Host Process.
+2025-05-14 08:34:57.397 [info] [127.0.0.1][e0c74496][ExtensionHostConnection] The client has reconnected.
+2025-05-14 10:53:57.028 [info] [127.0.0.1][d1b88e36][ManagementConnection] New connection established.
+2025-05-14 10:53:57.173 [info] [127.0.0.1][97a9e17c][ExtensionHostConnection] New connection established.
+2025-05-14 10:53:57.180 [info] [127.0.0.1][97a9e17c][ExtensionHostConnection] <8507> Launched Extension Host Process.
+2025-05-14 10:54:30.329 [info] [127.0.0.1][87317a4f][ExtensionHostConnection] New connection established.
+2025-05-14 10:54:30.335 [info] [127.0.0.1][87317a4f][ExtensionHostConnection] <8533> Launched Extension Host Process.
+2025-05-14 10:54:30.338 [info] [127.0.0.1][4efea739][ManagementConnection] New connection established.
+2025-05-14 10:54:33.609 [info] [127.0.0.1][d1b88e36][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-14 10:54:34.861 [info] [127.0.0.1][4efea739][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-14 10:54:35.254 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-05-14 10:54:39.839 [info] [127.0.0.1][41e1df7b][ManagementConnection] New connection established.
+2025-05-14 10:54:39.937 [info] [127.0.0.1][3d19a047][ExtensionHostConnection] New connection established.
+2025-05-14 10:54:39.945 [info] [127.0.0.1][3d19a047][ExtensionHostConnection] <8557> Launched Extension Host Process.
+2025-05-14 10:54:56.334 [info] [127.0.0.1][41e1df7b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-14 10:56:30.773 [info] [127.0.0.1][d8f4f427][ManagementConnection] New connection established.
+2025-05-14 10:56:30.941 [info] [127.0.0.1][c99abdfa][ExtensionHostConnection] New connection established.
+2025-05-14 10:56:30.949 [info] [127.0.0.1][c99abdfa][ExtensionHostConnection] <8590> Launched Extension Host Process.
+2025-05-14 10:59:39.972 [info] [127.0.0.1][87317a4f][ExtensionHostConnection] <8533> Extension Host Process exited with code: 0, signal: null.
+2025-05-14 10:59:40.184 [info] [127.0.0.1][97a9e17c][ExtensionHostConnection] <8507> Extension Host Process exited with code: 0, signal: null.
+2025-05-14 11:01:30.906 [info] [127.0.0.1][3d19a047][ExtensionHostConnection] <8557> Extension Host Process exited with code: 0, signal: null.
+2025-05-14 11:11:49.646 [info] [127.0.0.1][d8f4f427][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-14 11:17:36.854 [info] [127.0.0.1][3788601c][ManagementConnection] New connection established.
+2025-05-14 11:17:37.035 [info] [127.0.0.1][1233b7bd][ExtensionHostConnection] New connection established.
+2025-05-14 11:17:37.045 [info] [127.0.0.1][1233b7bd][ExtensionHostConnection] <9451> Launched Extension Host Process.
+2025-05-14 11:22:37.430 [info] [127.0.0.1][c99abdfa][ExtensionHostConnection] <8590> Extension Host Process exited with code: 0, signal: null.
+2025-05-14 11:23:19.420 [info] Getting Manifest... ms-vscode.live-server
+2025-05-14 11:23:19.499 [info] Getting Manifest... ritwickdey.liveserver
+2025-05-14 11:23:21.101 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubongmarshalinwang/.codeoss/extensions/extensions.json","external":"file:///home/ubongmarshalinwang/.codeoss/extensions/extensions.json","path":"/home/ubongmarshalinwang/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2-cde","date":"2025-05-04T07:12:33.188Z"}}
+2025-05-14 11:23:21.387 [info] Installing extension: ms-vscode.live-server {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubongmarshalinwang/.codeoss/extensions/extensions.json","external":"file:///home/ubongmarshalinwang/.codeoss/extensions/extensions.json","path":"/home/ubongmarshalinwang/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2-cde","date":"2025-05-04T07:12:33.188Z"}}
+2025-05-14 11:23:23.939 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js
+2025-05-14 11:23:23.940 [info] Extension signature verification is not done: ms-vscode.live-server
+2025-05-14 11:23:24.013 [info] Extracted extension to file:///home/ubongmarshalinwang/.codeoss/extensions/ms-vscode.live-server-0.4.15-universal: ms-vscode.live-server
+2025-05-14 11:23:24.024 [info] Renamed to /home/ubongmarshalinwang/.codeoss/extensions/ms-vscode.live-server-0.4.15-universal
+2025-05-14 11:23:24.043 [info] Extension installed successfully: ms-vscode.live-server file:///home/ubongmarshalinwang/.codeoss/extensions/extensions.json
+2025-05-14 11:23:26.356 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /google/devshell/editor/code-oss-for-cloud-shell/out/vs/server/node/server.main.js
+2025-05-14 11:23:26.356 [info] Extension signature verification is not done: ritwickdey.liveserver
+2025-05-14 11:23:34.425 [info] Extracted extension to file:///home/ubongmarshalinwang/.codeoss/extensions/ritwickdey.liveserver-5.7.9-universal: ritwickdey.liveserver
+2025-05-14 11:23:34.444 [info] Renamed to /home/ubongmarshalinwang/.codeoss/extensions/ritwickdey.liveserver-5.7.9-universal
+2025-05-14 11:23:34.471 [info] Extension installed successfully: ritwickdey.liveserver file:///home/ubongmarshalinwang/.codeoss/extensions/extensions.json
+2025-05-14 11:23:58.978 [info] Uninstalling extension from the profile: ritwickdey.liveserver@5.7.9 file:///home/ubongmarshalinwang/.codeoss/extensions/extensions.json
+2025-05-14 11:23:59.000 [info] Marked extension as uninstalled ritwickdey.liveserver-5.7.9-universal
+2025-05-14 11:23:59.905 [error] [network] #204: https://open-vsx.org/vscode/gallery/publishers/ritwickdey/extensions/LiveServer/5.7.9/stats?statType=uninstall - error POST connect ECONNREFUSED 127.0.0.1:80
+2025-05-14 11:23:59.905 [info] Successfully uninstalled extension from the profile ritwickdey.liveserver@5.7.9 file:///home/ubongmarshalinwang/.codeoss/extensions/extensions.json
+2025-05-14 11:32:48.557 [info] [127.0.0.1][3788601c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-14 11:32:52.790 [info] [127.0.0.1][ea9606c3][ExtensionHostConnection] New connection established.
+2025-05-14 11:32:52.798 [info] [127.0.0.1][ea9606c3][ExtensionHostConnection] <10473> Launched Extension Host Process.
+2025-05-14 11:32:52.804 [info] [127.0.0.1][3662c072][ManagementConnection] New connection established.
+2025-05-14 11:32:53.928 [info] [127.0.0.1][3662c072][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-14 11:37:53.103 [info] [127.0.0.1][1233b7bd][ExtensionHostConnection] <9451> Extension Host Process exited with code: 0, signal: null.

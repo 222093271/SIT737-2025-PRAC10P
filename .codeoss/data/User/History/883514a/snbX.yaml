@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mongodb-uri-secret
+type: Opaque
+stringData:
+  MONGO_URI: "mongodb+srv://appuser:apppassword123@cluster123.2ldn7g1.mongodb.net/registerdb?retryWrites=true&w=majority&appName=Cluster123"
