@@ -1,5 +1,0 @@
-2025-05-14 10:55:01.172 [info] Extension host with pid 8557 started
-2025-05-14 10:55:01.188 [info] Lock '/home/ubongmarshalinwang/.codeoss/data/User/workspaceStorage/-2c821e12/vscode.lock': Lock acquired.
-2025-05-14 11:01:30.893 [info] Extension host terminating: renderer disconnected for too long (2)
-2025-05-14 11:01:30.894 [info] Lock '/home/ubongmarshalinwang/.codeoss/data/User/workspaceStorage/-2c821e12/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2025-05-14 11:01:30.896 [info] Extension host with pid 8557 exiting with code 0

@@ -1,3 +1,0 @@
-# .env
-MONGO_URI=mongodb+srv://ubongmarshalinwang:password123xyz@clusterapp123.w4xev4o.mongodb.net/registrationdb?retryWrites=true&w=majority
-PORT=3000
