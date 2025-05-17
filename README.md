@@ -12,7 +12,7 @@ This documentation details the entire process conducted for Task 10.1P of the SI
 
 The solution was created using multiple core technologies. The application's back end was developed in Node.js and integrated with a **MongoDB Atlas** database hosted in the cloud. **Docker** was used to containerise the application and deploy it to the **Kubernetes cluster** setup in **GCP Kubernetes Engine**. **Google Cloud Operations Suite (Stackdriver)** was integrated for continuous observability and real-time insights. **GitHub** was integrated into the GCP Cloud Shell environment for source control as well as version management with seamless collaboration and direct code pushes to the main branch.
 
-Monitoring plays a critical role in ensuring the stability and performance of cloud-native applications. By using Stackdriver, we captured metrics such as CPU usage, memory consumption, container restarts, and log severity levels. This observability allows for proactive performance tuning and rapid troubleshooting in production environments.
+Monitoring is essential in maintaining the performance and stability of cloud-native applications. By using Stackdriver, we captured metrics such as CPU usage, memory consumption, container restarts, and log severity levels. This observability allows for proactive performance tuning and rapid troubleshooting in production environments.
 
 
 *Figure: GCP Project Dashboard showing Kubernetes Engine cluster setup.*
