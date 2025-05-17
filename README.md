@@ -336,7 +336,7 @@ This reference allows Kubernetes on GCP to fetch the image and launch pods with 
 
 **Justification**:
 
-In summary, Dockerising the Node.js application created a portable, reliable unit of execution. It enabled testing in local environments and seamless handoff to cloud orchestration platforms like Kubernetes. Pushing the image to Docker Hub ensured universal accessibility and integration into GCP workflows.
+In short, Dockerising the Node.js application produced a portable and trustworthy unit of execution. Testing was now possible on local environments and handed off effortlessly to cloud orchestration systems such as Kubernetes. Publishing the image on Docker Hub guaranteed global availability and integration into GCP workflows.
 
 
 *Figure: Docker image pushed to Docker Hub for deployment on Kubernetes.*
@@ -345,9 +345,9 @@ In summary, Dockerising the Node.js application created a portable, reliable uni
 
 ## Kubernetes Deployment and Configuration
 
-This section outlines the process of deploying the containerised `Node.js` application on **Google Kubernetes Engine (GKE)**, configuring environment secrets, and exposing the service externally. Kubernetes ensures scalability, reliability, and automated management of containerised workloads.
+This section details the deployment of the containerised Node.js application on Google Kubernetes Engine (GKE), environment secret configuration, and exposing the service to the outside. Kubernetes ensures scalability, reliability, and automatic management of containerised workloads.
 
-Kubernetes (K8s) plays a critical role in orchestrating containerised workloads. It manages scaling, deployment, load balancing, health monitoring, and fault tolerance for cloud-native applications. In this section, we detail the step-by-step deployment of the Dockerised Node.js registration app to **Google Kubernetes Engine (GKE)**.
+Kubernetes (K8s) has a vital function in the orchestration of containerised workloads. It manages scaling, deployment, load balancing, health monitoring, and fault tolerance for cloud-native applications. In this section, we detail the step-by-step deployment of the Dockerised Node.js registration app to **Google Kubernetes Engine (GKE)**.
 
 
 ### Creating the Kubernetes Cluster on GCP
@@ -983,12 +983,13 @@ Despite several challenges—such as oversized files, secret leak detections, pu
 
 ### Recommendations:
 
-* **Enable Auto-Scaling**: Future deployments should implement Kubernetes Horizontal Pod Autoscaler for dynamic traffic handling.
+* **Enable auto-scaling**: Future deploys should use Kubernetes Horizontal Pod Autoscaler for dynamic traffic management.
 
-* **Use GitHub Actions for CI/CD**: Automating the build–test–deploy pipeline would streamline future iterations.
+* **Implement CI/CD using GitHub Actions**: Automating the pipeline of build–test–deploy would make subsequent iterations seamless.
 
-* **Secret Manager Integration**: Moving secrets to GCP Secret Manager adds centralised security and scalability.
+* **Secret Manager Integration**: Securing secrets in GCP Secret Manager brings centralised security and scalability.
 
-* **Monitoring Alert Policies**: Setting custom alert thresholds would ensure early detection of anomalies.
+* **Alert Policy Monitoring**: Placing custom threshold settings for alerts would guarantee the timely detection of abnormalities.
 
-Overall, this task reinforced the importance of DevOps best practices in modern cloud application management.
+In general, it emphasised the significance of DevOps best practices in the management of modern-day cloud applications.
+
