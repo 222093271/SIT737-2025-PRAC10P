@@ -1,6 +1,6 @@
 # **SIT323/SIT737 - Cloud Native Application Development - Task -10.1P: Monitoring and Visibility of NodeJS Application**
 
-## End-to-End Deployment and Monitoring of a Containerized Node.js Application on GCP using Kubernetes and MongoDB Atlas
+## End-to-End Deployment and Monitoring of a Containerised Node.js Application on GCP using Kubernetes and MongoDB Atlas
 
 ## Student Name: Inwang Ubong Marshal
 ## Student ID: 222093271
@@ -156,7 +156,7 @@ Developed a minimal form with fields for Name, Email, Password, and Phone Number
 
 ### Backend: Express Server & MongoDB Integration
 
-**Main **File**: `application.js`
+**Main File**: `application.js`
 
 * Used Express.js to create the web server
 * Connected MongoDB using Mongoose
