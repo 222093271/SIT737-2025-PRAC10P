@@ -8,11 +8,11 @@
 
 ## Overview
 
-This documentation details the entire process conducted for Task 10.1P of the SIT737 unit, where a NodeJS-based registration application was built, containerised, deployed, and monitored on the Google Cloud Platform (GCP). The main aim of the task was to acquire hands-on experience in deploying a microservice-based cloud-native application and implementing observability concepts via GCP's native monitoring tools.
+This documentation outlines all the processes performed for Task 10.1P of the SIT737 unit, in which a NodeJS application for registration was developed, containerised, launched, and monitored on the Google Cloud Platform (GCP). The primary objective of the task was to gain hands-on experience in deploying a microservice-based cloud-native application and integrating observability concepts through the native monitoring systems of GCP.
 
-The solution was created using multiple core technologies. The application's back end was developed in Node.js and integrated with a **MongoDB Atlas** database hosted in the cloud. **Docker** was used to containerise the application and deploy it to the **Kubernetes cluster** setup in **GCP Kubernetes Engine**. **Google Cloud Operations Suite (Stackdriver)** was integrated for continuous observability and real-time insights. **GitHub** was integrated into the GCP Cloud Shell environment for source control as well as version management with seamless collaboration and direct code pushes to the main branch.
+The solution was built on several core technologies. The back end of the application was built in Node.js with integration through the use of a **MongoDB Atlas** database on the cloud. **Docker** was utilised to containerise the application and deploy it on the **Kubernetes cluster** configured in the **Google Kubernetes Engine**. **Google Cloud Operations Suite (Stackdriver)** was integrated for continuous monitoring and real-time insights. **GitHub** was integrated within the context of the GCP Cloud Shell for source control as well as for version management with seamless collaboration and direct code pushes to the master branch.
 
-Monitoring is essential in maintaining the performance and stability of cloud-native applications. By using Stackdriver, we captured metrics such as CPU usage, memory consumption, container restarts, and log severity levels. This observability allows for proactive performance tuning and rapid troubleshooting in production environments.
+Monitoring is critical in ensuring the performance and stability of cloud-native apps. Through Stackdriver, we monitored metrics like CPU usage, memory usage, container restarts, and log severity levels. This observability enables proactive performance tuning and quick troubleshooting within production environments
 
 
 *Figure: GCP Project Dashboard showing Kubernetes Engine cluster setup.*
@@ -345,9 +345,9 @@ In short, Dockerising the Node.js application produced a portable and trustworth
 
 ## Kubernetes Deployment and Configuration
 
-This section details the deployment of the containerised Node.js application on Google Kubernetes Engine (GKE), environment secret configuration, and exposing the service to the outside. Kubernetes ensures scalability, reliability, and automatic management of containerised workloads.
+This stage outlines containerised Node.js application deployment on Google Kubernetes Engine (GKE), environment secret configuration, and exposing the service externally. Kubernetes takes care of scalability, reliability, and automatic management of containerised workloads.
 
-Kubernetes (K8s) has a vital function in the orchestration of containerised workloads. It manages scaling, deployment, load balancing, health monitoring, and fault tolerance for cloud-native applications. In this section, we detail the step-by-step deployment of the Dockerised Node.js registration app to **Google Kubernetes Engine (GKE)**.
+Kubernetes (K8s) plays an essential part in containerised workload orchestration. Kubernetes handles scaling, deployment, load balancing, health checking, and fault tolerance for cloud-native application runtimes. This section outlines the step-by-step deployment of the Dockerised Node.js registration application to **Google Kubernetes Engine (GKE)**.
 
 
 ### Creating the Kubernetes Cluster on GCP
@@ -975,11 +975,12 @@ All backend, frontend, and monitoring systems operated flawlessly post-deploymen
 
 ## Conclusion and Recommendations 
 
-This Task 10.1P project successfully demonstrated the end-to-end deployment, configuration, and monitoring of a containerised Node.js registration application on Google Kubernetes Engine (GKE) using MongoDB Atlas, Docker, and GitHub. Through strategic planning and execution, we implemented a scalable microservice architecture integrated with Google Cloud's Operations Suite (Stackdriver) for real-time insights, performance tracking, and troubleshooting.
+This Task 10.1P project successfully implemented end-to-end deployment, management, and monitoring of the containerised Node.js registration application on Google Kubernetes Engine (GKE) using Docker, MongoDB Atlas, and GitHub. By using forward-thinking and execution, we established a scalable microservice architecture coupled with Google Cloud's Operations Suite (Stackdriver) for real-time insights, performance monitoring, and troubleshooting.
 
-The project highlighted the significance of cloud-native deployments by emphasising automation, container orchestration, and resource optimisation. Using secrets management for MongoDB credentials, secure push practices via GitHub, and Stackdriver for proactive monitoring created a robust and secure deployment environment.
+The project underscored the importance of cloud-native implementations by focusing on automation, container orchestration, and resource optimisation. Employing secrets management of MongoDB credentials as well as secure push practices through GitHub and Stackdriver for proactive monitoring, established a strong and secure deployment platform.
 
-Despite several challenges—such as oversized files, secret leak detections, push rejections, and quota issues—we applied effective resolutions like `.gitignore` rules, GitHub credential linking, and dynamic cluster scaling via `gcloud` commands.
+Despite various issues—oversize files, secret leak detections, push rejections, and quota problems—we implemented efficient solutions such as `.gitignore` rules, GitHub credential linking, and dynamic cluster scaling through `gcloud` commands.
+
 
 ### Recommendations:
 
